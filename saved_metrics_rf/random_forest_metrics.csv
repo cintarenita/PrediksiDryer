@@ -1,0 +1,6 @@
+Target,MSE,RMSE,R2,Mean_Actual,Mean_Predicted,Accuracy_vs_Mean (%)
+D101330TT (Tem.outlet chamber),63.1205,7.9448,0.9266,67.01,67.06,99.92
+D102265TIC_PV (Temp. inlet chamber),340.387,18.4496,0.9327,113.76,113.84,99.93
+D102260TIC_CV (High press. Steam damper),121.0255,11.0012,0.8445,26.49,26.46,99.88
+D102265TIC_CV (Low press. Steam damper),118.4244,10.8823,0.6109,16.79,16.68,99.34
+D102266TIC (Main heater dehumidifier),5.7915,2.4065,0.8688,23.07,23.08,99.93

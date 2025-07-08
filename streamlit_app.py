@@ -4,7 +4,7 @@ st.set_page_config(page_title="Prediksi Dryer", page_icon="🔥", layout="center
 st.image("logo.png", width=150)
 
 st.title("📊 Prediksi Parameter Dryer")
-st.markdown("Silakan pilih model prediksi berdasarkan nilai **GAS_MMBTU & GAS_Sm3**")
+st.markdown("Silakan pilih model prediksi berdasarkan nilai **GAS_MMBTU**")
 
 col1, col2, col3 = st.columns(3)
 

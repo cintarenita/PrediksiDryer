@@ -9,7 +9,7 @@ df = pd.read_csv("Merged (Gas per jam).csv")
 df.dropna(inplace=True)
 
 # Input dan Target
-input_features = ['GAS_MMBTU', 'GAS_Sm3']
+input_features = ['GAS_MMBTU']
 target_columns = ['D101330TT (Tem.outlet chamber)','D102265TIC_PV (Temp. inlet chamber)','D102260TIC_CV (High press. Steam damper)','D102265TIC_CV (Low press. Steam damper)','D102266TIC (Main heater dehumidifier)']
 
 # Folder model

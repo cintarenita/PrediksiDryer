@@ -12,7 +12,7 @@ df = pd.read_csv("Merged (Gas per jam).csv")
 df.dropna(inplace=True)
 
 # Fitur input dan target
-input_features = ['GAS_MMBTU', 'GAS_Sm3']
+input_features = ['GAS_MMBTU']
 target_columns = [
     'D101330TT (Tem.outlet chamber)',
     'D102265TIC_PV (Temp. inlet chamber)',

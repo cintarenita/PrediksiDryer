@@ -10,7 +10,6 @@ st.title("🌳 Prediksi Parameter Dryer - Random Forest")
 st.image("logo.png", width=150)
 
 gas_input = st.number_input("Masukkan nilai GAS_MMBTU", min_value=0.0, step=0.1, value=16.5)
-sm3_input = st.number_input("Masukkan nilai GAS_Sm3", min_value=0.0, step=0.1, value=500.0)
 
 # Daftar model dengan path baru yang aman
 parameter_models = {
@@ -23,7 +22,7 @@ parameter_models = {
 
 
 if st.button("🔍 Prediksi Sekarang"):
-    input_data = np.array([[gas_input, sm3_input]])
+    input_data = np.array([[gas_input]])
     results = []
 
     for param, model_path in parameter_models.items():
