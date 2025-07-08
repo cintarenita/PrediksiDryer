@@ -13,11 +13,11 @@ sm3_input = st.number_input("Masukkan nilai GAS_Sm3", min_value=0.0, step=0.1, v
 
 # Daftar model per parameter
 parameter_models = {
-    'D101330TT (Tem.outlet chamber)': 'saved_models_v2\dt_model_D101330TT (Tem.outlet chamber).pkl',
-    'D102260TIC_CV (High press. Steam damper)': 'saved_models_v2\dt_model_D102260TIC_CV (High press. Steam damper).pkl',
-    'D102265TIC_CV (Low press. Steam damper)': 'saved_models_v2\dt_model_D102265TIC_CV (Low press. Steam damper).pkl',
-    'D102265TIC_PV (Temp. inlet chamber)': 'saved_models_v2\dt_model_D102265TIC_PV (Temp. inlet chamber).pkl',
-    'D102266TIC (Main heater dehumidifier)': 'saved_models_v2\dt_model_D102266TIC (Main heater dehumidifier).pkl',
+    'D101330TT (Tem.outlet chamber)': 'saved_models_v2/dt_model_D101330TT (Tem.outlet chamber).pkl',
+    'D102260TIC_CV (High press. Steam damper)': 'saved_models_v2/dt_model_D102260TIC_CV (High press. Steam damper).pkl',
+    'D102265TIC_CV (Low press. Steam damper)': 'saved_models_v2/dt_model_D102265TIC_CV (Low press. Steam damper).pkl',
+    'D102265TIC_PV (Temp. inlet chamber)': 'saved_models_v2/dt_model_D102265TIC_PV (Temp. inlet chamber).pkl',
+    'D102266TIC (Main heater dehumidifier)': 'saved_models_v2/dt_model_D102266TIC (Main heater dehumidifier).pkl',
 }
 
 if st.button("🔍 Prediksi Sekarang"):

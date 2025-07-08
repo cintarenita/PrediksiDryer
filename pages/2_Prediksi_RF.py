@@ -17,8 +17,9 @@ parameter_models = {
     'D102260TIC_CV (High press. Steam damper)': 'saved_models_v2/rf_model_D102260TIC_CV (High press. Steam damper).pkl',
     'D102265TIC_CV (Low press. Steam damper)': 'saved_models_v2/rf_model_D102265TIC_CV (Low press. Steam damper).pkl',
     'D102265TIC_PV (Temp. inlet chamber)': 'saved_models_v2/rf_model_D102265TIC_PV (Temp. inlet chamber).pkl',
-    'D102266TIC (Main heater dehumidifier)': 'saved_models_v2/rf_model_D102266TIC (Main heater dehumidifier).pkl'
+    'D102266TIC (Main heater dehumidifier)': 'saved_models_v2/rf_model_D102266TIC (Main heater dehumidifier).pkl',
 }
+
 
 if st.button("🔍 Prediksi Sekarang"):
     input_data = np.array([[gas_input, sm3_input]])
